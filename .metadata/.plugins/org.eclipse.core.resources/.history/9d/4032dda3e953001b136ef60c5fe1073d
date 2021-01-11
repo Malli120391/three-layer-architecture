@@ -1,0 +1,14 @@
+package com.javacodes;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication(scanBasePackages = {"com.javacodes.controller", "com.javacodes.repository", 
+		"com.javacodes.services", "com.javacodes.model"})
+public class SpringbootThymleafCrudWebAppThreeLayerArchitectureApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringbootThymleafCrudWebAppThreeLayerArchitectureApplication.class, args);
+	}
+
+}

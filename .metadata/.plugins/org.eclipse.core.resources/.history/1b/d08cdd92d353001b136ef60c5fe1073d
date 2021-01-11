@@ -1,0 +1,33 @@
+package com.javacodes.services;
+
+import java.util.List;
+
+import com.javacodes.model.EmployeeModel;
+
+public class EmployeeServiceLeyarImpl implements EmployeeServiceLeyar {
+
+	@Override
+	public List<EmployeeModel> getAllEmployes() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void saveEmployee(EmployeeModel employee) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public EmployeeModel getEmployeeById(long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteEmployeeById(long id) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

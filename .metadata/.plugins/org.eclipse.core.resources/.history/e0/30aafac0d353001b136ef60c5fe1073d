@@ -1,0 +1,29 @@
+package com.javacodes.services;
+
+import java.util.List;
+
+import com.javacodes.model.EmployeeModel;
+
+public class EmployeeServiceLeyarImpl implements EmployeeServiceLeyar {
+
+	@Override
+	public List<EmployeeModel> getAllEmployes() {
+		return null;
+	}
+
+	@Override
+	public void saveEmployee(EmployeeModel employee) {
+
+	}
+
+	@Override
+	public EmployeeModel getEmployeeById(long id) {
+		return null;
+	}
+
+	@Override
+	public void deleteEmployeeById(long id) {
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.javacodes.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.javacodes.services.EmployeeServiceLeyar;
+
+@RestController
+public class MainEmployeeController {
+	
+	@Autowired
+	private EmployeeServiceLeyar employeeServiceLeyar;
+	
+	
+	
+	
+
+}
